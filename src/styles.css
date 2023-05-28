@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+body
+{
+    background: rgb(83,56,143);
+background: radial-gradient(circle, rgba(83,56,143,1) 0%, rgba(47,41,88,1) 66%);
+    height: 100vh;
+    color: #fff;
+
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+    /* border: 1px solid #fff;  */
+    padding: 0px 20px;
+    flex-direction: column;
+}
+.claro 
+{
+    background: rgb(213,243,255);
+    background: radial-gradient(circle, rgba(213,243,255,1) 0%, rgba(81,180,232,1) 55%);
+    color: #026EED;
+}
+
+.claro p{
+    color: #026EED;
+}
+
+.claro .rectangle
+{
+    color: rgb(229,242,255);
+color: linear-gradient(90deg, rgba(229,242,255,1) 0%, rgba(213,243,255,1) 53%);
+}
+
+.claro input
+{
+    color: #fff;
+    background: #52B5E8;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(255, 255, 255, 0.5) 0px -2px 6px 0px inset;
+}
+.claro input::placeholder
+{
+    color: #D5F3FF ;
+}
+
+.claro .icon
+{
+    color:#D5F3FF
+}
+
+.claro .toogle_dark
+{
+    box-shadow: rgb(128, 176, 247) 3px 3px 6px 0px inset, #78bced -3px -3px 6px 1px inset;
+}
+
+.claro .circle
+{
+    background: #3c14cb;
+}
+
+.claro .loading
+{
+    background: #54b6e9;
+    
+    color: #fff;
+}
+
+.claro .btn_degrees
+{
+    background: #38A1D8;
+    transition: all 300ms;
+}
+
+.claro .btn_degrees:hover
+{
+    background: #2eaff5;
+}
