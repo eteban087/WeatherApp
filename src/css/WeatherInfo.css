@@ -40,7 +40,7 @@ svg
 {
     position: absolute;
     right: 25px;
-    bottom: 10px;
+    bottom: 0px;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 15px;
@@ -104,6 +104,11 @@ img{
         width: 170px;
         top: -30px;
 
+    }
+
+    .main{
+        bottom: 10px;
+        font-size: 15px;
     }
 }
 
