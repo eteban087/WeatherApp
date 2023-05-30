@@ -18,6 +18,8 @@ export const WeatherApp = () => {
       })
   }
 
+  
+
   // useEffect(() => {
   //   SearchCity();
   // }, [])
@@ -33,6 +35,7 @@ export const WeatherApp = () => {
 
   useEffect(() => {
     hanledDegrees();
+    
   }, []);
 
   useEffect(() => {
@@ -50,6 +53,7 @@ export const WeatherApp = () => {
       setWeatherInfo(citys);
       setIsloading(false);
     };
+    
 
     navigator.geolocation.getCurrentPosition(succes);
   }, []);
@@ -57,7 +61,7 @@ export const WeatherApp = () => {
   return (
     <>
       <Nav city={SearchCity}   />
-
+     
       {isloading ? (
         <Loading />
       ) : (

@@ -27,19 +27,26 @@
 
 .rectangle_loading
 {
-   max-width: 410px;
+   max-width: 300px;
     height: auto;
-    /* border: 1px solid #fff; */
-    padding: 0px 20px;
-    position: relative;
+    border: 1px solid #fff;
+    padding: 3px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+ 
 }
 
 .loading_icons
 {
-    position: absolute;
+   
     left: 35px;
     top: 3px;
-    display: block;
+    display: flex;
+    width: 100% ;
+  
 }
 
 img{

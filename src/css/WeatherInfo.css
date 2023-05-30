@@ -40,9 +40,14 @@ svg
 {
     position: absolute;
     right: 25px;
-    bottom: 0px;
+    bottom: 10px;
     font-weight: 400;
     text-transform: uppercase;
+    font-size: 15px;
+    /* align-self: flex-end; */
+    
+    
+
     
 }
 
@@ -77,11 +82,11 @@ svg
 
 .container_icon
 {
-    width: 220px;
-    height: 220px;
+    width: 210px;
+    height: 210px;
     position: absolute;
     right: 20px;
-    top: -70px;
+    top: -80px;
 }
 
 img{

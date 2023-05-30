@@ -5,7 +5,7 @@ export const getData = async (name)=>{
     const {data} = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=${API_KEY}`)
     const city = [];
     city.push(data);
-    console.log(city)
+   
     return city;
     
 }

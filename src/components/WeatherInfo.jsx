@@ -150,7 +150,7 @@ export const WeatherInfo = ({ weatherInfo, value }) => {
             </h3>
           </div>
 
-          <h4 className="main">{mainDict[weather.weather[0].main]}</h4>
+          <h3 className="main">{mainDict[weather.weather[0].main]}</h3>
           <div className="container_icon">
             <img src={iconDict[weather.weather[0].icon]} alt="" />
           </div>

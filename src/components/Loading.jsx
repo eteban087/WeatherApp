@@ -10,7 +10,7 @@ export const Loading = () => {
            
         </div>
         <div className="rectangle_loading">
-            <img src="./img/rectangle_loading.svg" alt="" />
+            {/* <img src="./img/rectangle_loading.svg" alt="" /> */}
             <div className='loading_icons'>
             <img src="./img/loading_icons.svg" alt="" />
             </div>
